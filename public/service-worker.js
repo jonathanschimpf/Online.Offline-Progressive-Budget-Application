@@ -5,7 +5,7 @@ const FILES_TO_CACHE = [
     '/dist/mini-index.js',
     '/dist/mini-db.js',
     '/manifest.webmanifest',
-    '/assets/styleheet/styles.css',
+    '/assets/stylesheet/styles.css',
     '/assets/icons/icon_192x192.png',
     '/assets/icons/icon_512x512.png'
 
