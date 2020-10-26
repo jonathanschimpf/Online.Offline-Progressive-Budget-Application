@@ -1,13 +1,13 @@
 const FILES_TO_CACHE = [
 
-    "/",
-    "/index.html",
-    "/dist/mini-index.js",
-    "/dist/mini-db.js",
-    "/manifest.webmanifest",
-    "/assets/styleheet/styles.css",
-    "/assets/icons/icon_192x192.png",
-    "/assets/icons/icon_512x512.png"
+    '/',
+    '/index.html',
+    '/dist/mini-index.js',
+    '/dist/mini-db.js',
+    '/manifest.webmanifest',
+    '/assets/styleheet/styles.css',
+    '/assets/icons/icon_192x192.png',
+    '/assets/icons/icon_512x512.png'
 
   ];
    
@@ -54,7 +54,7 @@ const FILES_TO_CACHE = [
 
     // cache successful requests to the API
 
-    if (evt.request.url.includes("/all") || evt.request.url.includes("/find")) {
+    if (evt.request.url.includes("/api")) {
       evt.respondWith(
         caches.open(DATA_CACHE_NAME).then(cache => {
           return fetch(evt.request)
@@ -82,7 +82,6 @@ const FILES_TO_CACHE = [
   
     // this is for offline work
     // if the request is not for the API, serve static assets using "offline-first" approach.
-    // see https://developers.google.com/web/fundamentals/instant-and-offline/offline-cookbook#cache-falling-back-to-network
 
     evt.respondWith(
       caches.match(evt.request).then(function(response) {

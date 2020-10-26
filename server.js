@@ -21,9 +21,12 @@ app.use(express.static("public"));
 
 // MongoDB locally + process.env setup for Heroku deployment.
 
-mongoose.connect(process.env.MONGODB_URI || "mongodb://localhost/budget", {
+mongoose.connect(process.env.MONGODB_URI || 'mongodb://localhost/budget', {
+
   useNewUrlParser: true,
-  useFindAndModify: false
+  useFindAndModify: false,
+  useCreateIndex: true,
+  useUnifiedTopology: true
 });
 
 // routes
