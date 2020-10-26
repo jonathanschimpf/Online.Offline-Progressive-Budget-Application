@@ -2,11 +2,11 @@ const FILES_TO_CACHE = [
 
     "/",
     "/index.html",
-    "/index.js",
-    "/db.js",
-    "/styles.css",
-    "/icons/icon_192x192.png",
-    "/icons/icon_512x512.png"
+    "./assets/js/index.js",
+    "./assets/js/db.js",
+    "./assets/styleheet/styles.css",
+    "./assets/icons/icon_192x192.png",
+    "./assets/icons/icon_512x512.png"
 
   ];
    
