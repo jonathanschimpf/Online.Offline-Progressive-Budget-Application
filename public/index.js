@@ -47,7 +47,7 @@ function populateTable() {
 }
 
 function populateChart() {
-  
+
   // copy array and reverse it
 
   let reversed = transactions.slice().reverse();
@@ -68,6 +68,7 @@ function populateChart() {
   });
 
   // remove old chart if it exists
+  
   if (myChart) {
     myChart.destroy();
   }
