@@ -47,7 +47,7 @@
   <script>  
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
-        navigator.serviceWorker.register("service-worker.js").then(reg => {
+        navigator.serviceWorker.register("/service-worker.js").then(reg => {
           console.log("We found your service worker file, he's got your back. Just like rust, the service worker never sleeps.", reg);
         });
       });
@@ -55,8 +55,8 @@
   </script>
 
   <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script src="./dist/mini-index.js"></script>
-  <script src="./dist/mini-db.js"></script>
+  <script src="/dist/mini-db.js"></script>
+  <script src="/dist/mini-index.js"></script>
 
 </body>
 </html>

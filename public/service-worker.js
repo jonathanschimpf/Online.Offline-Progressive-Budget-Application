@@ -1,19 +1,17 @@
 const FILES_TO_CACHE = [
 
-    '/',
-    '/index.html',
-    '/dist/mini-index.js',
-    '/dist/mini-db.js',
-    '/manifest.webmanifest',
-    '/assets/stylesheet/styles.css',
-    '/assets/icons/icon_192x192.png',
-    '/assets/icons/icon_512x512.png'
+  '/',
+  '/dist/mini-db.js',
+  '/dist/mini-index.js',
+  '/manifest.webmanifest',
+  '/assets/stylesheet/styles.css',
+  '/assets/icons/icon-192x192.png',
+  '/assets/icons/icon-512x512.png'
+];
 
-  ];
-   
-  const CACHE_NAME = "static-cache-v2";
-  const DATA_CACHE_NAME = "data-cache-v1";
-  
+const CACHE_NAME = "static-cache-v2";
+const DATA_CACHE_NAME = "data-cache-v1";
+
   // install
 
   // cache the files above in memory
