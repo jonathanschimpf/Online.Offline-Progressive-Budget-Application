@@ -101,3 +101,22 @@ tr:nth-child(even) {
   margin: 0 auto;
 
 }
+
+@media screen and (min-width:287px) {
+
+  input.regularInput{
+
+    width: 275px;
+
+  }
+}
+
+
+@media screen and (max-width:286px) {
+
+  input.responsiveInput{
+
+    width: 240px;
+
+  }
+}

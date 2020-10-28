@@ -21,8 +21,7 @@
 <body>
 
   <nav class="navbar navbar-expand-lg navbar-dark">
-    <a class="navbar-brand"><span style="color: white">Online/Offline</span>‏‏‎ ‎Budget Tool</a>
-    <!-- <img src="" class="img-fluid" alt="Responsive image"> -->
+    <a class="navbar-brand"><span style="color: white">Online/Offline</span>‏‏‎ ‏‏‎ ‎‎Budget Tool</a>
   </nav>
 
   <br>
@@ -37,14 +36,20 @@
     <br>
 
     <div class="form">
+
       <input type="text" id="t-name" placeholder="Name of transaction"
-        style="align-content: center; margin-bottom: 15px" />
+        style="align-content: center; margin-bottom: 15px; text-align:center" class="responsiveInput regularInput"  />
+
+      <br>
+
       <input type="number" min="0" id="t-amount" placeholder="Transaction amount"
-        style="align-content: center; margin-bottom: 15px;" />
+        style="align-content: center; margin-bottom: 15px; text-align:center" class="responsiveInput regularInput" />
+
       <br>
       <br>
-      <button id="add-btn"><i class="fa fa-plus buttons" style="align-content: center"></i> Add Funds</button>
-      <button id="sub-btn"><i class="fa fa-minus" style="align-content: center"></i> Reduce Funds</button>
+
+      <button id="add-btn" style="margin-bottom: 15px"><i class="fa fa-plus buttons" style="align-content: center"></i> Add Funds</button>
+      <button id="sub-btn" style="margin-bottom: 15px"><i class="fa fa-minus" style="align-content: center"></i> Reduce Funds</button>
       <p class="error"></p>
     </div>
 
