@@ -81,16 +81,6 @@ Log on to:‏‏‎ ‎‏‏‎ ‎‎‏‏[`Online/Offline Budget Tool`](http
 
 <p>&nbsp;<p>
 
-<!-- ---
-
-<p>&nbsp;<p>
-
-View a video overview on usage here:
-
-[![IMAGE](public/img/trip-wishlist_video-player_scrngrb.jpg)](https://drive.google.com/file/d/13k1SuX7pMayu0ahN_L9TZ95Uns9oZQ9D/view) 
-
-<p>&nbsp;<p> 
-
 
 ---
 
@@ -99,20 +89,7 @@ View a video overview on usage here:
 
 
 
-[![IMAGE](public/images/NoSQL_Workout_INDEX.jpg)](https://nosql-work-out.herokuapp.com/) 
-
-
-<p>&nbsp;<p>
-
-
----
-
-
-<p>&nbsp;<p>
-
-
-
-[![IMAGE](public/images/NoSQL_Workout_STATS.jpg)](https://nosql-work-out.herokuapp.com/) 
+[![IMAGE](public/assets/images/screengrab.jpg)](https://onlineoffline-budget-app.herokuapp.com/) 
 
 
 <p>&nbsp;<p>
@@ -125,56 +102,20 @@ View a video overview on usage here:
 
 
 
-[![IMAGE](public/img/trip-wishlist_foodsearch_scrngrb.jpg)](https://trip-wishlist.herokuapp.com/) 
+[![IMAGE](public/assets/images/screengrab_2.jpg)](https://onlineoffline-budget-app.herokuapp.com/) 
 
 
 <p>&nbsp;<p>
  
 
----
-
-
-<p>&nbsp;<p>
-
-
-
-[![IMAGE](public/img/trip-wishlist_museumsearch_scrngrb.jpg)](https://trip-wishlist.herokuapp.com/) 
-
-
-<p>&nbsp;<p>
-
-
-
----
-
-
-<p>&nbsp;<p>
-
-
-[![IMAGE](public/img/trip-wishlist_foodsearch-detail_scrngrb.jpg)](https://trip-wishlist.herokuapp.com/) 
-
-<p>&nbsp;</p>
-
-
-
----
-
-<p>&nbsp;<p>
-
-
-[![IMAGE](public/img/trip-wishlist_mobile_scrngrb.jpg)](https://trip-wishlist.herokuapp.com/) 
-
-<p>&nbsp;</p>
-
-
 
 ---
 
 <p>&nbsp;</p>
 
-<p align= "center"><img src="public/img/TripWishlist_GIF.gif" alt="animated" href="https://trip-wishlist.herokuapp.com/" /></p>
+<p align= "center"><img src="public/assets/images/Online_Offline_Budget_Tool.gif" alt="animated" href="https://onlineoffline-budget-app.herokuapp.com/" /></p>
 
-<p>&nbsp;</p>   -->
+<p>&nbsp;</p>  
 
 
 ---
