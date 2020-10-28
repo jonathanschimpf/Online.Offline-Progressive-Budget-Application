@@ -1,18 +1,23 @@
 body {
+
   font-size: 120%;
   font-family: 'Rubik', sans-serif;
   margin: 0 !important;
 }
 
 button, input {
+
   font-size: 95%;
   font-family: 'Rubik', sans-serif;
+
 }
 
 button:hover {
+
   background: #6666FF !important;
   transition: all 0.45s ease-in-out !important;
   color: white;
+
 }
 
 .navbar {
@@ -26,37 +31,50 @@ button:hover {
 }
 
 .navbar-brand {
+
   font-size:16px;
-  color: white !important;
+  color: #6666FF !important;
   
 }
 
 
 table {
+
   width: 100%;
+
 }
 
 td, th {
+
   border: 1px solid #dddddd;
   text-align: left;
   padding: 8px;
+
 }
 
 tr:nth-child(even) {
+
   background-color: #dddddd;
+
 }
 
 .error {
-  color: red;
+
+  color: #6666FF;
+  ;
+
 }
 
 .wrapper {
+
   margin: 0 auto;
   max-width: 825px;
   text-align: center;
+
 }
 
 .total {
+
   font-size: 150%;
   
 }
@@ -67,14 +85,19 @@ tr:nth-child(even) {
 }
 
 .form {
+
   margin-top: 25px;
   width: 100%;
+
 }
 
+
 .transactions {
+
   text-align: left;
   max-height: 300px;
   overflow: auto;
   width: 90%;
   margin: 0 auto;
+
 }
