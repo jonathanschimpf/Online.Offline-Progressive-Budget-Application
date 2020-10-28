@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,27 +8,48 @@
   <meta name="theme-color" content="#317EFB">
   <link rel="shortcut icon" href="/assets/icons/icon-192x192.png" type="image/x-icon">
 
+  <!--Rubik 400WGHT // Google Fonts.-->
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500&display=swap" rel="stylesheet">
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="/assets/stylesheet/styles.css">
   <link rel="manifest" href="/manifest.webmanifest">
 
   <title>Budget Tracker</title>
 </head>
+
 <body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark">
+    <a class="navbar-brand">Online/Offline Budget Tool</a>
+    <!-- <img src="" class="img-fluid" alt="Responsive image"> -->
+  </nav>
+
   <br>
   <br>
+
   <div class="wrapper">
     <div class="total">
-      <div class="total">Your total is: $<span id="total">0</span></div>
+      <div class="total"><b>Your total is: <a class="totalColor">$</a><span id="total" class="totalColor">0</span></b>
+      </div>
     </div>
 
+    <br>
+
     <div class="form">
-      <input type="text" id="t-name" placeholder="Name of transaction" />
-      <input type="number" min="0" id="t-amount" placeholder="Transaction amount" />
-      <button id="add-btn"><i class="fa fa-plus buttons"></i> Add Funds</button>
-      <button id="sub-btn"><i class="fa fa-minus"></i> Subtract Funds</button>
+      <input type="text" id="t-name" placeholder="Name of transaction"
+        style="align-content: center; margin-bottom: 10px" />
+      <input type="number" min="0" id="t-amount" placeholder="Transaction amount"
+        style="align-content: center; margin-bottom: 10px;" />
+      <br>
+      <br>
+      <button id="add-btn"><i class="fa fa-plus buttons" style="align-content: center"></i> Add Funds</button>
+      <button id="sub-btn"><i class="fa fa-minus" style="align-content: center"></i> Reduce Funds</button>
       <p class="error"></p>
     </div>
+
+
+    <br>
 
     <div class="transactions">
       <table>
@@ -36,15 +58,20 @@
           <th>Amount</th>
         </thead>
         <tbody id="tbody">
-          
+
         </tbody>
       </table>
     </div>
-    
+
+    <br>
+
     <canvas id="myChart"></canvas>
   </div>
 
-  <script>  
+  <br>
+  <br>
+
+  <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
         navigator.serviceWorker.register("/service-worker.js").then(reg => {
@@ -59,4 +86,5 @@
   <script src="/dist/mini-index.js"></script>
 
 </body>
+
 </html>
