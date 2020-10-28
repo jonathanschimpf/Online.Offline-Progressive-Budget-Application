@@ -37,12 +37,12 @@
 
     <div class="form">
 
-      <input type="text" id="t-name" placeholder="Name of transaction"
+      <input type="text" id="t-name" placeholder="Enter transaction name"
         style="align-content: center; margin-bottom: 15px; text-align:center" class="responsiveInput regularInput"  />
 
       <br>
 
-      <input type="number" min="0" id="t-amount" placeholder="Transaction amount"
+      <input type="number" min="0" id="t-amount" placeholder="Enter transaction amount"
         style="align-content: center; margin-bottom: 15px; text-align:center" class="responsiveInput regularInput" />
 
       <br>
@@ -54,7 +54,7 @@
     </div>
 
 
-    <br>
+    <br id="scroll">
 
     <div class="transactions">
       <table>
@@ -77,6 +77,10 @@
   <br>
   <br>
 
+  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+  <script src="/dist/mini-db.js"></script>
+
+
   <script>
     if ("serviceWorker" in navigator) {
       window.addEventListener("load", () => {
@@ -87,8 +91,6 @@
     }
   </script>
 
-  <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
-  <script src="/dist/mini-db.js"></script>
   <script src="/dist/mini-index.js"></script>
 
 </body>

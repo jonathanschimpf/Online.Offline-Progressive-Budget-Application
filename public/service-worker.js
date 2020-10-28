@@ -46,7 +46,7 @@ const DATA_CACHE_NAME = "data-cache-v1";
     self.clients.claim();
   });
   
-  // fetch
+  fetch
 
   self.addEventListener("fetch", function(evt) {
 
@@ -82,8 +82,15 @@ const DATA_CACHE_NAME = "data-cache-v1";
     // if the request is not for the API, serve static assets using "offline-first" approach.
 
     evt.respondWith(
-      caches.match(evt.request).then(function(response) {
-        return response || fetch(evt.request);
+      fetch(evt.request).catch(function() {
+        return caches.match(evt.request).then(function(response) {
+          if (response) {
+            return response;
+          } else if (evt.request.headers.get("accept").includes("text/html")) {
+            // return the cached home page for all requests for html pages
+            return caches.match("/");
+          }
+        });
       })
     );
   });

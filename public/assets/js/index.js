@@ -87,6 +87,9 @@ function populateChart() {
         }]
     }
   });
+
+  // myChart.update();
+
 }
 
 function sendTransaction(isAdding) {
@@ -124,6 +127,7 @@ function sendTransaction(isAdding) {
 
   // re-run logic to populate ui with new record
   
+  populateChart();
   populateTable();
   populateTotal();
   
@@ -165,8 +169,10 @@ function sendTransaction(isAdding) {
 
 document.querySelector("#add-btn").onclick = function() {
   sendTransaction(true);
+  document.querySelector("#scroll").scrollIntoView();
 };
 
 document.querySelector("#sub-btn").onclick = function() {
   sendTransaction(false);
+  document.querySelector("#scroll").scrollIntoView();
 };
