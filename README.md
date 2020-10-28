@@ -113,7 +113,7 @@ Log on to:‏‏‎ ‎‏‏‎ ‎‎‏‏[`Online/Offline Budget Tool`](http
 
 <p>&nbsp;</p>
 
-<p align= "center"><img src="public/assets/images/Online_Offline_Budget_Tool.gif" alt="animated" href="https://onlineoffline-budget-app.herokuapp.com/" /></p>
+<p align= "center"><img src="public/assets/images/Online_Offline_Budget_Tool_Final.gif" alt="animated" href="https://onlineoffline-budget-app.herokuapp.com/" /></p>
 
 <p>&nbsp;</p>  
 
