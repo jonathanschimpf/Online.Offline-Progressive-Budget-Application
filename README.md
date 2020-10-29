@@ -100,9 +100,7 @@ Log on to:‏‏‎ ‎‏‏‎ ‎‎‏‏[`Online/Offline Budget Tool`](http
 ---
 
 <p>&nbsp;</p>
-
 <p align= "center"><img src="public/assets/images/Online_Offline_Budget_Tool_Final.gif" alt="animated" href="https://onlineoffline-budget-app.herokuapp.com/" /></p>
-
 <p>&nbsp;</p>  
 
 
@@ -174,7 +172,7 @@ This project is covered under the MIT license.
 <p>&nbsp;‏‏‎‏‏‎ ‎<strong>+</strong></p>
 
 
-`Bootstrap CDN` =>‏‏‎ ‎ ‏‏‎ ‎[An pen-source CSS framework directed at responsive, mobile-first front-end web development.](https://getbootstrap.com/)
+`Bootstrap CDN` =>‏‏‎ ‎ ‏‏‎ ‎[An open-source CSS framework directed at responsive, mobile-first web development.](https://getbootstrap.com/)
 
 
 
