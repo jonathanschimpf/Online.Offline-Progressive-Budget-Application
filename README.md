@@ -1,9 +1,4 @@
 # Online/Offline Budget Tool
-
-
-
-
-# NoSQL Workout Tracker
 ‎
 ‎‎![License](https://img.shields.io/static/v1?label=License&message=MIT&color=brightgreen) 
 ![License](https://img.shields.io/static/v1?label=Language&message=JavaScript&color=yellow)
