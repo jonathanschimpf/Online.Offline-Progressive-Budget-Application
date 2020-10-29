@@ -24,7 +24,7 @@
 
 <p>&nbsp;<p>
 
-(UPDATE COMING..)
+This project is an intuitive budgeting tool that allows a user to keep track of their deposits and expenses. These entries are stored in a table format with their provided description and amount, and visualized over time in a date stamped line chart as well (Thanks to `Chart.js`). This is a progressive web application that can be used both online, and offline if necessary. In the event that a connection is lost during use, transaction entries will be stored temporarily in `IndexedDB` "pending" storage, and then permanently added to the `MongoDB` database once a connection can be established again. A `Service Worker` file provides a cached version of the website when using offline so the user interface can continue to be utilized during an outage. This provides reliability at all times, specifically during moments of unpredictable connectivity or during travel when data/wifi might not necessarily be available in the moment. This responsive application is optimized for all screen sizes and it's capabilities can be enjoyed in both a mobile or desktop setting.
 
 <p>&nbsp;<p>
 
@@ -68,20 +68,13 @@ View the application here =>‏‏‎ ‎‏‏‎ ‎‏‏‎ ‎‏‏[`Onlin
 <p>&nbsp;<p>
 
 
-Log on to:‏‏‎ ‎‏‏‎ ‎‎‏‏[`Online/Offline Budget Tool`](https://onlineoffline-budget-app.herokuapp.com/).‏‏‎ ‎ 
-
-<p>&nbsp;<p>
-
-(UPDATE COMING..)
+Log on to:‏‏‎ ‎‏‏‎ ‎‎‏‏[`Online/Offline Budget Tool`](https://onlineoffline-budget-app.herokuapp.com/). Get started by simply adding a description of your budgetary item and the value associated. If this is an expense then select the "- Reduce Funds" submit button, and use the "+ Add Funds" submit button for all deposits. After submitting you'll see a live update of your entry populate on a table directly below, and the line chart will update displaying the visualization for said entry as well. The application will scroll into view below automatically upon submit, giving you the exact view of this data. Feel free to add more entries when neeeded. 
 
 <p>&nbsp;<p>
 
 
----
-
 
 <p>&nbsp;<p>
-
 
 
 [![IMAGE](public/assets/images/screengrab.jpg)](https://onlineoffline-budget-app.herokuapp.com/) 
@@ -200,11 +193,10 @@ This project is covered under the MIT license.
 
 
 
-
 <p>&nbsp;‏‏‎‏‏‎ ‎<strong>+</strong></p>
 
 
-`JSCompress` =>‏‏‎ ‎ ‏‏‎ ‎[An online JavaScript compressor that allows you to compress/minify all of your JS files by up to 80%.](https://jscompress.com/)
+`JSCompress` =>‏‏‎ ‎ ‏‏‎ ‎[An online JavaScript compressor that allows you to minify files by up to 80%.](https://jscompress.com/)
 
 
 <p>&nbsp;‏‏‎‏‏‎ ‎<strong>+</strong></p>
