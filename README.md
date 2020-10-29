@@ -174,7 +174,7 @@ This project is covered under the MIT license.
 <p>&nbsp;‏‏‎‏‏‎ ‎<strong>+</strong></p>
 
 
-`Bootstrap CDN` =>‏‏‎ ‎ ‏‏‎ ‎[A free and open-source CSS framework directed at responsive, mobile-first front-end web development.](https://getbootstrap.com/)
+`Bootstrap CDN` =>‏‏‎ ‎ ‏‏‎ ‎[An pen-source CSS framework directed at responsive, mobile-first front-end web development.](https://getbootstrap.com/)
 
 
 
